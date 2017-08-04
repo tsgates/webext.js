@@ -1,0 +1,8 @@
+* run/test
+
+  $ web-ext run
+
+  - visit google.com/search?q=test
+  - right click a search entry (onmousedown), see if a.href is changed?
+
+* put any "domain".js under js/ to be loaded
